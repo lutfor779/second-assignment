@@ -18,6 +18,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
 
 /*-------------------------------------------------------------
                             header
@@ -59,7 +65,43 @@ nav {
     padding: 24px 0;
 }
 
-.login-color {
+.top-link {
+    font-size: 16px;
+    font-weight: 500;
     background-color: #E02C6D;
     padding: 10px 24px;
+    color: #FFFFFF;
 }
+
+
+/* nav end */
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.introduction {
+    width: 1160px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.welcome h1 {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.welcome-banner img {
+    width: 555px;
+    height: 440px;
+}
+
+
+/*-------------------------------------------------------------
+                            main
+-------------------------------------------------------------*/
