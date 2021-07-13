@@ -23,7 +23,6 @@ body {
     margin-top: 70px;
     display: flex;
     justify-content: center;
-
 }
 .container-title{
     width: 1160px;
@@ -40,6 +39,12 @@ h3{
     font-size: 28px;
     font-weight: 700;
     margin: 10px 0;
+}
+
+h2{
+    color: #0A0826;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 
@@ -157,3 +162,35 @@ nav {
 .player-banner img{
     width: 100%;
 }
+
+/*-------------------------------------------------------------
+                            Players end
+-------------------------------------------------------------*/
+
+/* highlight */
+
+.highlight{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0;
+}
+.highlight-content{
+    width: 470px;
+    height: 310px;
+}
+.highlight-content h2{
+    margin-bottom: 10px;
+}
+.highlight-content p{
+    margin-bottom: 34px;
+}
+.highlight-banner{
+    width: 570px;
+}
+.highlight-banner img{
+    width: 100%;
+}
+
+/*-------------------------------------------------------------
+                        Highlight end
+-------------------------------------------------------------*/
