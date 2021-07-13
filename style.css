@@ -18,10 +18,21 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container{
+    margin-top: 70px;
+}
+
 p {
     font-size: 16px;
     font-weight: 400;
     color: #6C6C6C;
+    margin-top: 0;
+}
+h3{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0;
 }
 
 
@@ -96,12 +107,45 @@ nav {
     margin-bottom: 25px;
 }
 
-.welcome-banner img {
+.welcome-banner{
     width: 555px;
     height: 440px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.welcome-banner img {
+    width: 100%;
+}
+
+.welcome-banner:hover img {
+    transform: scale(1.4) rotate(360deg);
+    transition: transform .8s ease-in 0.2s;
 }
 
 
 /*-------------------------------------------------------------
                             main
 -------------------------------------------------------------*/
+
+/* players */
+.players{
+    width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    width: 330px;
+    height: 520px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-banner{
+    width: 100%;
+}
+.player-banner img{
+    width: 100%;
+}
