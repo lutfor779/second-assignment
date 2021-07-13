@@ -20,6 +20,12 @@ body {
 
 .container{
     margin-top: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+.container-title{
+    width: 1160px;
 }
 
 p {
@@ -129,8 +135,9 @@ nav {
 -------------------------------------------------------------*/
 
 /* players */
+
 .players{
-    width: 1160px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
