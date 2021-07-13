@@ -16,6 +16,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
 }
 
 .container{
@@ -145,7 +146,7 @@ nav {
 }
 .player{
     width: 330px;
-    height: 520px;
+    height: 550px;
     padding: 15px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
