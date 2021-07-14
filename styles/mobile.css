@@ -1,9 +1,18 @@
 /* media query start */
 
+ .menu-bar{
+        display: none;
+    }
 /* mobile */
 @media only screen and (max-width: 688px) {
-    .navigation{
+    .menu-bar{
+        display: block;
+    }
+    .navitem{
         display: none;
+    }
+    .navigation{
+        max-width: 688px;
     }
     .welcome h1{
         font-size: 36px;
@@ -59,4 +68,5 @@
     }
     /* footer done */
 }
+
 /* Mobile done */

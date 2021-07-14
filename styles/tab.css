@@ -1,9 +1,19 @@
 /* media query start */
 
+.menu-bar{
+        display: none;
+    }
+
 /* tab */
 @media only screen and (min-width: 669px) and (max-width: 992px) {
-    .navigation{
+   .menu-bar{
+        display: block;
+    }
+    .navitem{
         display: none;
+    }
+    .navigation{
+        max-width: 992px;
     }
 
 /* start */
@@ -65,7 +75,7 @@
         align-items: center;
     }
     .highlight-content, .highlight-banner{
-        width: 95%;
+        width: 90%;
     }
     .highlight-banner{
         margin-top: 50px;

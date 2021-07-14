@@ -197,6 +197,19 @@ nav {
                         Highlight end
 -------------------------------------------------------------*/
 
+/* bonus */
+.partner{
+    overflow: hidden;
+}
+.partner:hover img{
+    transform: scale(1.5) rotate(30deg);
+    transition: transform 1s ease-in 0.2s alternate;
+}
+/* bonus */
+
+
+
+
 .contacts{
     display: flex;
     justify-content: center;
