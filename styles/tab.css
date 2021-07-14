@@ -5,7 +5,7 @@
     }
 
 /* tab */
-@media only screen and (min-width: 669px) and (max-width: 992px) {
+@media only screen and (min-width: 669px) and (max-width: 1312px) {
    .menu-bar{
         display: block;
     }

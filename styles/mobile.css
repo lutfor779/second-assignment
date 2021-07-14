@@ -1,6 +1,6 @@
 /* media query start */
 
- .menu-bar{
+.menu-bar{
         display: none;
     }
 /* mobile */
@@ -12,7 +12,7 @@
         display: none;
     }
     .navigation{
-        max-width: 688px;
+        max-width: 680px;
     }
     .welcome h1{
         font-size: 36px;
