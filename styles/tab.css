@@ -1,7 +1,7 @@
 /* media query start */
 
 /* tab */
-@media only screen and (min-width: 669px) and (max-width: 992px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .navigation, header, footer{
         display: none;
     }
@@ -21,5 +21,22 @@
         width: 90%;
         height: auto;
     }
-}
+    /* players */
+
+    /* highlight */
+    .highlight{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    }
+
+    .highlight-content, .highlight-banner{
+        height: auto;
+        width: 90%;
+    }
+    .highlight-content{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    
 /* tab */
