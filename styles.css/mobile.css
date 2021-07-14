@@ -32,8 +32,8 @@
     .players{
         grid-template-columns: repeat(1, 1fr);
     }
-    .player{
-        width: 95%;
+    .players .player{
+        width: auto;
         height: auto;
     }
     /* player done */
