@@ -1,11 +1,12 @@
 /* media query start */
 
 /* tab */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-    .navigation, header{
+@media only screen and (min-width: 669px) and (max-width: 992px) {
+    .navigation{
         display: none;
     }
 
+/* start */
     .container{
         width: 100%;
     }
@@ -13,6 +14,39 @@
         width: 95%;
         height: auto;
     }
+/* end */
+
+
+
+     /* header */
+    .welcome h1{
+        font-size: 45px;
+    }   
+    .introduction{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .welcome,.welcome-banner{
+        width: 70%;
+        margin: 0 5%;
+    }
+    .introduction-area{
+        width: auto;
+        height: auto;
+        padding: 15px;
+    }
+
+    .welcome-banner{
+        margin: 50px 0;
+        height: auto;
+    }
+    
+    /* header end */
+
+
+
+
+    /* players */
     .players{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -21,31 +55,28 @@
         width: 90%;
         height: auto;
     }
-    /* players */
+    /* player  end */
 
-    /* highlight */
+
+
+    /* highlighter */
     .highlight{
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
+        flex-direction: column;
+        align-items: center;
     }
-
     .highlight-content, .highlight-banner{
-        height: auto;
-        width: 90%;
+        width: 95%;
     }
-    .highlight-content{
-        margin-top: 0;
-        margin-bottom: 30px;
+    .highlight-banner{
+        margin-top: 50px;
     }
-    /* highlight end */
+    /* highlighter end */
 
-   /* footer */
-    .contacts{
-        margin-bottom: 100px;
-    }
+
+    /* footer */
     .contact{
         width: 65%;
+        margin-bottom: 165px;
     }
 }
 /* tab */
