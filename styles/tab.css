@@ -2,7 +2,7 @@
 
 /* tab */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .navigation, header, footer{
+    .navigation, header{
         display: none;
     }
 
@@ -38,5 +38,14 @@
         margin-top: 0;
         margin-bottom: 30px;
     }
-    
+    /* highlight end */
+
+   /* footer */
+    .contacts{
+        margin-bottom: 100px;
+    }
+    .contact{
+        width: 65%;
+    }
+}
 /* tab */
