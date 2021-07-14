@@ -1,0 +1,25 @@
+/* media query start */
+
+/* tab */
+@media only screen and (min-width: 669px) and (max-width: 992px) {
+    .navigation, header, footer{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .container .container-title{
+        width: 95%;
+        height: auto;
+    }
+    .players{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .player{
+        width: 90%;
+        height: auto;
+    }
+}
+/* tab */
